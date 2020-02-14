@@ -179,11 +179,7 @@ body
      padding: 0;
      width: 100%;
    }
-   .carousel__container:hover .carousel-item:hover 
-   {
-      transform: scale(1.2);
-    
-   }
+
    .footer 
    {
      align-items: flex-start;
