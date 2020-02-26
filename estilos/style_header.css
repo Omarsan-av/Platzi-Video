@@ -177,7 +177,6 @@ body
     display: block;
 }
 
-.
 .carousel-item__details
 {
     display: block;   
@@ -294,6 +293,10 @@ body
     opacity: 1;
     margin-right: 135px;
 }
+img.play 
+{
+    display: none;
+}
 
 @media only screen and (max-width: 700px)
 {
@@ -324,5 +327,13 @@ body
         transform: scale(1.15);
         opacity: 1;
         margin-right: 0px;
-     }
+    }
+    img.play 
+    {
+        display: block;
+        width: 40px;
+        position: absolute;
+        left: 140px;
+        top: 84px;
+    }
 }
