@@ -304,6 +304,7 @@ img.play
     {
         margin-bottom: 0;
         overflow-x: scroll;
+        padding-left: 15px;
     }
     .carousel__container 
     {
