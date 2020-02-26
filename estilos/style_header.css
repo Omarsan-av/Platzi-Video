@@ -283,3 +283,16 @@ body
     margin-right: 135px;
 }
 
+@media only screen and (max-width: 700px)
+{
+    .carousel__container:hover .carousel-item:hover 
+    {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    .carousel__container:hover .video:hover
+    {
+        transform: scale(1.2);
+       
+     }
+}
