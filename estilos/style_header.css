@@ -304,12 +304,12 @@ body
    }
     .carousel__container:hover .carousel-item:hover 
     {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
     .carousel__container:hover .video:hover
     {
-        transform: scale(1.2);
+        transform: scale(1.1);
         opacity: 1;
         margin-right: 0px;
      }
