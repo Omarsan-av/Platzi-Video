@@ -1,14 +1,14 @@
 body 
 {
     margin: 0;
-    background: #0F171E;
+    background: linear-gradient(#092e3d, #0F171E);
     font-family: 'Muli', sans-serif;
 }
 .header 
 {
     height: 100px;
     width: 100%;
-    background: #0F171E;
+    background: #092e3d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -229,6 +229,7 @@ body
    height: 100px;
    width: 100%;
    justify-content: space-around;
+   background: #0F171E;
  }
 
  .footer a
