@@ -105,6 +105,11 @@ body
     overflow-x: scroll;
 }
 
+.carousel::-webkit-scrollbar
+{
+  display: none;
+}
+
 .carousel__container
 {
     transition: 450ms -webkit-transform;
